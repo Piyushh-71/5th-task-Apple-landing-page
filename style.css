@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Apple;
+  src: url("./Apple-font.woff2");
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.navbar {
+  height: 8%;
+  width: 100%;
+  font-family: "Apple";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.navbar a {
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px 25px;
+  text-decoration: none;
+  color: rgb(104, 94, 94);
+}
+
+i {
+  font-size: 18px;
+  font-weight: 50;
+  color: rgb(47, 44, 44);
+}
