@@ -10,6 +10,7 @@
 }
 html,
 body {
+  font-family: "Apple";
   height: 100%;
   width: 100%;
 }
@@ -17,6 +18,11 @@ body {
   height: 100%;
   width: 100%;
   background-color: black;
+  background-size: cover;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("./iphone-img.jpg");
 }
 .navbar {
   height: 8%;
@@ -40,4 +46,48 @@ i {
   font-size: 18px;
   font-weight: 50;
   color: rgb(47, 44, 44);
+}
+
+.heading h1 {
+  color: white;
+  font-size: 53px;
+  font-weight: 600;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading h4 {
+  margin-top: 3px;
+  font-weight: 400;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn {
+  margin-left: 41%;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+button {
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 13px 22px;
+  background-color: #0077ed;
+  color: white;
+  border: none;
+}
+.buy {
+  transform: scale(0.9);
+  padding: 13px 22px;
+  transition: all ease-in-out;
+  background-color: transparent;
+  border: 2px solid #0077ed;
+}
+.buy:hover {
+  background-color: #0077ed;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
